@@ -9,3 +9,4 @@ Opencv Description on <a href = "bigdata-analyst.tistory.com"> My Blog </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/135?category=881359'> cv2 imshow 👉 plt imshow </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/204'> Moving & Roatation of Image </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/205'> Image Resizing and Interpolation </a>
+  -  <a href = 'https://bigdata-analyst.tistory.com/206'> Affine & Projection Transformation </a>
