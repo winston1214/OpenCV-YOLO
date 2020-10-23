@@ -1,4 +1,4 @@
-# OpenCV
+# OpenCV & YOLO
 
 Study to Object Detection & YOLO
 
