@@ -12,7 +12,7 @@ Supported both: OpenCV 2.x and OpenCV 3.x
 - CUDA 10.2
 
 
-## Install OpenCV 3.2
+## Install OpenCV 3.2 <a href = 'https://bigdata-analyst.tistory.com/220'>See Kor ver </a>
 
 - Install basic package 
 ```
