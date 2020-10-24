@@ -89,11 +89,28 @@ $ pkg-config --modversion opencv # check opencv version
 $ pkg-config –libs –cflags opencv
 ```
 
+## YOLO_MARK
+
+- Install YOLO_MARKER
+```
+$ git clone https://github.com/AlexeyAB/Yolo_mark
+$ cd Yolo_mark
+$ cmake .
+$ chmod u+x ./linux_mark.sh
+```
+- Excute
+```
+$ ./linux_mark.sh
+```
+- Output
+![Output](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbehpIr%2FbtqwgAEnP8j%2FGM7tvrKFFeO2a7nrCq5631%2Fimg.png)
 
 
-
-
-
-
+- Setting
+1. After checking that the image appears, press ESC and exit the sample data.
+2. Afterwards, clear all sample folders in the Yolo_mark/x64/Release/data/img.
+3. And put all the images to label into the folder.
+4. Go to the path Yolo_mark/x64/Release/data
+5. ```$ vi obj.data```
 
 
