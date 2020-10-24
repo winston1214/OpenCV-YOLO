@@ -1,6 +1,8 @@
 # OpenCV & YOLO
 
-Study to Object Detection & YOLO
+**Study to Object Detection & YOLO**
+
+### Reference Repository
 
 - <a href = 'https://github.com/PacktPublishing/OpenCV-3-x-with-Python-By-Example'>OpenCV Reference Repository</a>
 
