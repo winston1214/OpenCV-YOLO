@@ -73,7 +73,7 @@ $ cmake \
 -D WITH_XINE=ON \
 -D BUILD_NEW_PYTHON_SUPPORT=ON \
 -D PYTHON_INCLUDE_DIR=/usr/include/python2.7\
- -D BUILD_LIBPROTOBUF_FROM_SOURCES=ON -D PYTHON_INCLUDE_DIR2=/usr/include/x86_64-linux-gnu/python2.7 -D PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7.so ../ 2>&1 ../../opencv-3.2.0/ | tee cmake_messages.txt
+-D BUILD_LIBPROTOBUF_FROM_SOURCES=ON -D PYTHON_INCLUDE_DIR2=/usr/include/x86_64-linux-gnu/python2.7 -D PYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython2.7.so ../ 2>&1 ../../opencv-3.2.0/ | tee cmake_messages.txt
 ```
 **if you occur "cmake cuda error", you should set "WITH_CUDA=OFF"**
 ```
@@ -112,5 +112,33 @@ $ ./linux_mark.sh
 3. And put all the images to label into the folder.
 4. Go to the path Yolo_mark/x64/Release/data
 5. ```$ vi obj.data```
+![obj.data](https://user-images.githubusercontent.com/47775179/97078857-2a5b5c00-162a-11eb-9b98-14a69d8f5827.png)
+You can modify it as you want.
 
+6. ```$ vi obj.names```
+![obj.names](https://user-images.githubusercontent.com/47775179/97078866-3e9f5900-162a-11eb-94c5-656f9ba45663.png)
+The obj.names file is modified as well.
+
+- Labeling
+```
+$ cd ~/Yolo_mark
+$ ./linux_mark.sh```
+```
+- Operating Method
+
+Draw a bounding box through a mouse drag.
+
+Generate a number for a class with a numeric pad
+
+If you drew it incorrectly, click the bounding box you created, and then click R.
+
+For more help, press H.
+
+
+- Finish
+Press ctrl c after input.
+
+The labeled coordinates are stored in both the **Yolo_mark/x64/Release/data/img** file.
+
+Changes will be required depending on future yolo model work
 
