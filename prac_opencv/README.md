@@ -1,6 +1,6 @@
 # Description of OpenCV code(Kor ver)
 
-Opencv Description on <a href = "bigdata-analyst.tistory.com"> My Blog </a>
+Opencv Description on <a href = 'https://bigdata-analyst.tistory.com/category/OpenCV'> My Blog </a>
 
 ### 1. opencv_geometric_transform.ipynb
   -  <a href = 'https://bigdata-analyst.tistory.com/131?category=881359'> Download OpenCV (Window ver) </a>
