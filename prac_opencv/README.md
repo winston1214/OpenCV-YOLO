@@ -11,3 +11,5 @@ Opencv Description on <a href = "bigdata-analyst.tistory.com"> My Blog </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/205'> Image Resizing and Interpolation </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/206'> Affine & Projection Transformation </a>
   -  <a href = 'https://bigdata-analyst.tistory.com/207'> Warpping </a>
+### 2. opencv_EdgeDetec_filtering.ipynb
+  - <a href = 'https://bigdata-analyst.tistory.com/224'> Convolution & Blurring(1) </a>
