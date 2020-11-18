@@ -36,9 +36,9 @@ $ sudo apt-get install python2.7-dev python3-dev python-numpy python3-numpy
 $ makdir opencv
 $ cd opencv
 $ wget -O opencv.zip https://github.com/Itseez/opencv/archive/3.2.0.zip
-$ Unzip opencv.zip
-$ Wget –O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.2.0.zip
-$ Unzip opencv_contrib.zip
+$ unzip opencv.zip
+$ wget –O opencv_contrib.zip https://github.com/Itseez/opencv_contrib/archive/3.2.0.zip
+$ unzip opencv_contrib.zip
 ```
 
 ```
