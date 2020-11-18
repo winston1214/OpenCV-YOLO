@@ -96,6 +96,7 @@ $ pkg-config –libs –cflags opencv
 $ git clone https://github.com/AlexeyAB/Yolo_mark
 $ cd Yolo_mark
 $ cmake .
+$ make
 $ chmod u+x ./linux_mark.sh
 ```
 - Excute
