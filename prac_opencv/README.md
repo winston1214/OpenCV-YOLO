@@ -13,3 +13,4 @@ Opencv Description on <a href = 'https://bigdata-analyst.tistory.com/category/Op
   -  <a href = 'https://bigdata-analyst.tistory.com/207'> Warpping </a>
 ### 2. opencv_EdgeDetec_filtering.ipynb
   - <a href = 'https://bigdata-analyst.tistory.com/224'> Convolution & Blurring(1) </a>
+  - <a href= 'https://bigdata-analyst.tistory.com/238'> Blurring(2) & Sharpening </a>
